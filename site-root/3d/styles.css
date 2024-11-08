@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     display: flex;
+    color: white;
+    background-color: slategray;
     flex-direction: column;
     align-items: center;
 }
