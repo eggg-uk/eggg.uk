@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <input type="number" id="x" placeholder="x">
+        <input type="number" id="y" placeholder="y">
+        <input type="number" id="z" placeholder="z">
+        <button id="addModel" hidden>Add Model</button>
+        <button id="addSpheroid">Add Sphere</button>
+        <button id="removeModel">Remove Model</button>
+        </div>
+    Enter dimensions (mm/cm/doesn't matter, just be consistent) for three dimensions, and hit "add sphere". <br>
+    Models will appear in a line. If you refresh the page things will reset.<br>
+    Models are always a spheroid which is stretched to match the x,y,z coordinates given. Obviously it won't be perfectly accurate but should give an idea of scale I hope.<br>
+        You can rotate the camera with left mouse, move it with right, and zoom with middle.<br><br> 
+    <div id="canvas"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
