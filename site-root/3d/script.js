@@ -53,27 +53,6 @@ function updateCameraAndViewport() {
     renderer.setSize(window.innerWidth * 0.8, window.innerHeight * 0.8);
 }
 
-// Function to add a model
-function addModel(x, y, z) {
-    //debug
-    console.log('addModel called: x:' , x ,' y:', y ,' z:', z);
-    //
-    const geometry = new THREE.BoxGeometry(x, y, z);
-    const material = new THREE.MeshStandardMaterial({ 
-        color: 0xDA9814,
-        metalness: 0.5,
-        roughness: 0.5
-    });
-    const cube = new THREE.Mesh(geometry, material);
-
-    // Position the model to avoid overlap
-    cube.position.x = (totalWidth + x + 50)  ;
-    models.push(cube);
-    scene.add(cube);
-
-    // Update camera and viewport
-    updateCameraAndViewport();
-}
 
 function addSpheroid(x,y,z){
     const geometry = new THREE.SphereGeometry(0.5,32,16);
@@ -107,15 +86,6 @@ function removeModel() {
     }
 }
 
-// Event listeners for buttons
-document.getElementById('addModel').addEventListener('click', () => {
-    const x = parseFloat(document.getElementById('x').value);
-    const y = parseFloat(document.getElementById('y').value);
-    const z = parseFloat(document.getElementById('z').value);
-    if (x > 0 && y > 0 && z > 0) {
-        addModel(x, y, z);
-    }
-});
 
 document.getElementById('removeModel').addEventListener('click', removeModel);
 
@@ -138,7 +108,5 @@ document.getElementById('addSpheroid').addEventListener('click', () => {
     }
 });
 
-
-
-
 animate();
+
