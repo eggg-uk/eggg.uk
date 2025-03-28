@@ -1,10 +1,22 @@
-body {
+head{
     margin: 0;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'roboto', sans-serif;
     display: flex;
-    color: white;
-    background-color: rgb(247, 168, 22);
+    color: rgb(230, 216, 216);
+    background-color: rgb(247, 217, 196);
     flex-direction: column;
+    align-items: center;
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    color: rgb(247, 217, 196);
+    background-color: rgb(247, 217, 196);
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 #controls {
@@ -15,8 +27,49 @@ body {
     height: 80vh;
 }
 
+.home-container{
+    text-align: center;
+    background-color: rgb(8, 38, 59);
+    padding:40px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(8, 38, 59);
+    padding:40px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 50%;
+}
+
+
+.main-content{
+    background-color: rgb(217, 176, 99);
+}
+
 table, th, td {
     color: white;
     background-color: rgb(41, 56, 41);
     border-color: white;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(230, 216, 216);
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: rgb(233, 185, 185);
+    text-decoration: underline;
 }
