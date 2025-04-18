@@ -1,0 +1,27 @@
+baseURL = "https://eggg.uk"
+theme = "hugo-bearcub"
+title = "eggg dot uk"
+copyright = "eggg"
+enableRobotsTXT = true
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe=true
+
+[params]
+  description = "eggg dot uk"
+
+  favicon = "images/favicon.png"
+
+  title = "eggg dot uk"
+
+  dateFormat = "2006-01-02"
+
+  themeStyle = "herman"
+
+  [params.author]
+    name = "eggg" 
