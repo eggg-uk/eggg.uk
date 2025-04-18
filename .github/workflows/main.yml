@@ -1,0 +1,28 @@
+name: build n deploy to neocities
+
+on:
+  push:
+    branches:
+      - main
+
+jobs: 
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout code
+    uses: actions/checkout@v4.2.2
+
+    - name: setup hugo
+    uses: peaceiris/actions-hugo@v3
+    with:
+      hugo-version: 'latest'
+
+    - name: build hugo site
+    run: hugo --minify
+
+    - name: deploy to neocities
+    env:
+      NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_EGGGTEST_API_KEY }}
+    run: neocities push public/ --api-key "$NEOCITIES_API_KEY"
+    
