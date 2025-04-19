@@ -1,0 +1,29 @@
+name = "Bear Cub"
+license = "MIT"
+licenselink = "https://github.com/clente/hugo-bearcub/blob/master/LICENSE"
+description = "A lightweight Hugo theme based on Bear Blog and Hugo Bear Blog. It is free, multilingual, optimized for search engines, no-nonsense, responsive, light, and fast. Really fast."
+
+# The home page of the theme, where the source can be found.
+homepage = "https://github.com/clente/hugo-bearcub"
+
+# If you have a running demo of the theme.
+demosite = "https://clente.github.io/hugo-bearcub"
+
+tags = ["blog", "responsive", "minimal", "personal", "dark", "multilingual"]
+features = ["favicon", "seo", "no javascript", "rss", "social cards"]
+
+# If the theme has a single author
+[author]
+    name = "Caio Lente"
+    homepage = "https://lente.dev"
+
+# If porting an existing theme
+[original]
+    author = "Jan Raasch"
+    homepage = "https://www.janraasch.com"
+    repo = "https://github.com/janraasch/hugo-bearblog"
+
+# Hugo versions the theme supports
+[module]
+  [module.hugoVersion]
+    min = "0.90"
