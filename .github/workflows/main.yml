@@ -24,7 +24,7 @@ jobs:
 
     - name: deploy to neocities
       env:
-        NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_EGGGTEST_API_KEY }}
+        NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_EGGG_API_KEY }}
       run: |
         pip install git+https://github.com/neocities/python-neocities
         neocities push public/
