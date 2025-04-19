@@ -25,3 +25,7 @@ enableRobotsTXT = true
 
   [params.author]
     name = "eggg" 
+
+[module]
+[[module.imports]]
+path = "github.com/clente/hugo-bearcub"
