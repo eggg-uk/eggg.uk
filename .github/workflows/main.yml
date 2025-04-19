@@ -21,8 +21,11 @@ jobs:
     - name: build hugo site
       run: hugo --minify
 
+
     - name: deploy to neocities
       env:
         NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_EGGGTEST_API_KEY }}
-      run: neocities push public/ --api-key "$NEOCITIES_API_KEY"
+      run: |
+        pip install neocities
+        neocities push public/ --api-key "$NEOCITIES_API_KEY"
     
