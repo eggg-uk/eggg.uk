@@ -5,7 +5,7 @@ title = 'time'
 +++
 
 test page with some time stuff
-
+<HTML>
     time in current timezone is: 
     <p id="currentTZ"></p>
     in toronto:
@@ -29,3 +29,4 @@ test page with some time stuff
 updateTimes();
 setInterval(updateTimes,1000);
 </script>
+</HTML>
