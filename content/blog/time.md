@@ -1,12 +1,22 @@
 +++
 date = '2025-04-28'
 draft = false
-title = 'time zone js stuff'
+title = 'time'
 +++
 
 test page with some time stuff
 
-function updateTimes(){
+    time in current timezone is: 
+    <p id="currentTZ"></p>
+    in toronto:
+    <p id="torontoTZ"></p>
+    in london:
+    <p id="londonTZ"></p>
+    in seoul:
+    <p id="seoulTZ"></p>
+    <script src=TZ.js></script>
+
+<script>function updateTimes(){
   var currentDateTime = new Date()
   var torontoDateTime = new Date(currentDateTime.toLocaleString("en-US",{timeZone:'America/Toronto'}));
   var londonDateTime = new Date(currentDateTime.toLocaleString("en-US",{timeZone:'Europe/London'}));
@@ -18,3 +28,4 @@ function updateTimes(){
 }
 updateTimes();
 setInterval(updateTimes,1000);
+</script>
