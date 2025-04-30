@@ -41,7 +41,10 @@ function updateAllTimes() {
     timeElement.textContent = formatTime(timezoneTime);
     dateElement.textContent = formatDate(timezoneTime);
     card.classList.remove('current', 'hidden');
-    if (timezone.timezone === userTimezone) {
+    //console.log(timezone.timezone);
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone; // ty https://stackoverflow.com/questions/6939685/get-client-time-zone-from-browser#37512371
+    //console.log(tz);
+    if (tz === timezone.timezone) {
       card.classList.add('current');
     }
   });
