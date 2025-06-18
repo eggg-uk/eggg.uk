@@ -18,6 +18,9 @@ weight = 90
 ## github 
 [eggg-uk](https://github.com/eggg-uk)
 
+## codeberg
+[eggg-uk](https://codeberg.org/eggg-uk)
+
 ## a lil further info
 ### background
 - work in legal IT, specialised in business systems / SQL / Data / BI.
@@ -29,6 +32,6 @@ weight = 90
   - to improve my programming knowledge
 - improving at photography
 - learning more physical electronics
-  - building a couple keyboards atm, though the batteries are taking a while to arrive!
+  - building a couple keyboards atm
 - learning to make my own music
   - music theory is hard lol
