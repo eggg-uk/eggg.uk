@@ -10,5 +10,5 @@ nerd.
 
 sorry.
 
-under construction
+
 <a rel="me" href="https://hachyderm.io/@eggg"></a>
