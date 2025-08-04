@@ -1,6 +1,7 @@
 ---
 title: "home"
 menu: "main"
+favicon: 🥚
 weight: 1
 ---
 
