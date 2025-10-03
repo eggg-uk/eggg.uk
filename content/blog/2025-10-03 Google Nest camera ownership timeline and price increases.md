@@ -80,7 +80,7 @@ Over the 7 years i've owned the device, I've spent:
 - £80 (2024)
 - £80 (2025)
 
-totalling £700 on subscription and £331 on devices
+totalling £600 on subscription and £331 on devices
 
 ## Conclusion for the moment:
 
