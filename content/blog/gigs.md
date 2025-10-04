@@ -15,7 +15,7 @@ will continue to be updated
 ### updates:
 [2025-10-03]: the table markdown was a bit of a travesty, I've tried to tidy it a little. I've also added more gigs both past and present
 
-## table of approximately all of the gigs I've ever been to
+## a table of approximately all of the gigs I've ever been to
 
 |Artist|When|Support/lineup seen|Notes|Where|Price|
 |-|-|-|-|-|-|
@@ -93,17 +93,18 @@ will continue to be updated
 |Dead south|20/03/2025|Corb lund||Hammersmith apollo||
 |Algorave|09/04/2025||#pastagang|Corsica studios|£7|
 |Tyler, the creator|21/05/2025|Lil Yachty, Paris Texas|golden circle|O2 arena|£146.60|
-|Algorhythms|04/06/2025||eggg visual set approx 8pm!|peckham carpet shop|£0|
+|Algorhythms|04/06/2025||[eggg visual set 8pm](https://bsky.app/profile/mtrc.bsky.social/post/3lqsp2qk33c2r)|peckham carpet shop|£0|
 |Zimmer vs williams|08/06/2025|||RAH||
 |Nine inch nails|18/06/2025||Standing|O2|£91.35|
 |Sparks|19/06/2025|||Hammersmith||
 |Linkin Park|28/06/2025||Standing (LPU pit)|Wembley Stadium|£153.92|
-|Algorhythms|02/07/2025|||peckham carpet shop|£0|
+|Algorhythms|02/07/2025||[eggg visual set](../../hydra/3)|peckham carpet shop|£0|
 |Algorave|11/07/2025|||Science Gallery|£0|
 |Kaiser Chiefs|19/07/2025||Standing|Ally Pally|£58.69|
 |Prom: from dark till dawn|08/08/2025|Anna lapwood curated and conducted|starts at 11pm through to 7am|RAH|£20|
-|Rhapsody of fire|20/09/2025|enforcer, striker, witherfall||the garrison, toronto|CAD$45|
+|Rhapsody of fire|20/09/2025|enforcer, striker, witherfall|Twisted my ankle in the pit|the garrison, toronto|CAD$45|
 |Al Stewart|15/10/2025|||||
+|UNKLE|24/10/2025||Rōnin Live:3D:FX||£42.50|
 |Gogol bordello|01/11/2025|||Electric ballroom|£42|
 |Pye corner audio|08/11/2025|ambient set|St John on bethnal green|£22|
 |Apparat|03/02/2026|||HERE at outernet|£36.47|
